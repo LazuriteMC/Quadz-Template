@@ -2,13 +2,13 @@
 	"id" : "template",
 	"name" : "Example Template",
 	"author" : "Joshua Bardwell",
-	"width" : 0.5,
-	"height" : 0.2,
+	"width" : 0.6,
+	"height" : 0.1,
 	"cameraX" : 0.15,
 	"cameraY" : 0.1,
  	"mass" : 0.5,
 	"dragCoefficient" : 0.04,
-	"thrust" : 80,
+	"thrust" : 50,
 	"thrustCurve" : 1.0,
-	"cameraAngle" : 40
+	"cameraAngle" : 30
 }
