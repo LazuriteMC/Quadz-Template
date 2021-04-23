@@ -76,3 +76,6 @@ Voyager:
 
 ## Creating Models
 I recommend using [BlockBench](https://blockbench.net/) for creating custom models. Additionally, you will need to install the Geckolib plugin that comes with BlockBench in order to generate a geckolib geo model and animation file.
+
+## Finishing Up
+Your template can either be inside of a folder or a zip file. In either case, it must be placed in the `.minecraft/quadz` directory and it must be named using your template ID. For example, `rayon-racer` or `rayon-racer.zip`.
