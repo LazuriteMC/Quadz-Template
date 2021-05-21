@@ -46,36 +46,10 @@ Your settings JSON file should look like the following:
 	"cameraAngle" : 30
 }
 ```
-This template represents a medium sized quadcopter (such as one with 5" propellers). For smaller or larger quadcopter examples, here are some of the settings for Pixel and Voyager:
-
-Pixel:
-```
-"width" : 0.225,
-"height" : 0.125,
-"cameraX" : 0.025,
-"cameraY" : 0.1,
-"mass" : 0.01,
-"dragCoefficient" : 0.2,
-"thrust" : 0.4,
-"thrustCurve" : 1.0,
-"cameraAngle" : 5
-```
-
-Voyager:
-```
-"width" : 0.9,
-"height" : 0.2,
-"cameraX" : 0.43,
-"cameraY" : 0.05,
-"mass" : 1.2,
-"dragCoefficient" : 0.01,
-"thrust" : 65,
-"thrustCurve" : 0.9,
-"cameraAngle" : 20
-```
+This template represents a medium sized quadcopter (such as one with 5" propellers). For smaller or larger quadcopters you will need to adjust your settings accordingly.
 
 ## Creating Models
 I recommend using [BlockBench](https://blockbench.net/) for creating custom models. Additionally, you will need to install the Geckolib plugin that comes with BlockBench in order to generate a geckolib geo model and animation file.
 
 ## Finishing Up
-Your template can either be inside of a folder or a zip file. In either case, it must be placed in the `.minecraft/quadz` directory and it must be named using your template ID. For example, `rayon-racer` or `rayon-racer.zip`.
+Your template can either be inside of a folder or a zip file. In either case, it must be placed in the `quadz/` directory of your `.minecraft` folder and it must be named using your template ID. For example, `rayon-racer` or `rayon-racer.zip`.
